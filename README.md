@@ -1,5 +1,5 @@
 
-Limbaj Compiler
+Compiler
 
 A robust compiler frontend designed in C++ using Flex for lexical analysis and Bison for parsing. This project implements a custom programming language with support for Object-Oriented Programming (OOP), nested scoping, and strict static type checking.
 
