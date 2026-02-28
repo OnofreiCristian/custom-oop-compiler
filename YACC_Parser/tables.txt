@@ -1,0 +1,42 @@
+=== Symbol Table: Global ===
+Parent Scope: NULL (global)
+___________________________________________________
+Name		Kind		Type		Details
+____________________________________________________
+Dreptunghi		class		class
+calculeazaAria		function		int		Params: (int, int)
+dr		variable		Dreptunghi
+variabilaGlobala		variable		int
+
+=== Symbol Table: Dreptunghi ===
+Parent Scope: Global ===
+___________________________________________________
+Name		Kind		Type		Details
+____________________________________________________
+latime		variable		int
+lungime		variable		int
+setSize		function		int		Params: (int, int)
+
+=== Symbol Table: setSize ===
+Parent Scope: Dreptunghi ===
+___________________________________________________
+Name		Kind		Type		Details
+____________________________________________________
+h		variable		int
+w		variable		int
+
+=== Symbol Table: calculeazaAria ===
+Parent Scope: Global ===
+___________________________________________________
+Name		Kind		Type		Details
+____________________________________________________
+aria		variable		int
+h		variable		int
+w		variable		int
+
+=== Symbol Table: Main ===
+Parent Scope: Global ===
+___________________________________________________
+Name		Kind		Type		Details
+____________________________________________________
+

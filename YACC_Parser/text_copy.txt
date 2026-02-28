@@ -1,0 +1,39 @@
+class Dreptunghi {
+
+    int lungime;
+    int latime;
+
+    int setSize(int w, int h) {
+        lungime := h;
+        latime := w;
+    }
+}
+
+Dreptunghi dr;
+
+
+int variabilaGlobala := 10;
+
+
+
+int calculeazaAria(int w, int h) {
+    int aria;
+
+    aria := w * h;
+
+    if (aria > 100) {
+        Print(aria);
+    }
+
+    return aria;
+
+}
+
+Main {
+
+    dr.setSize(10, 20);
+    variabilaGlobala := calculeazaAria(10,20);
+    Print(variabilaGlobala);
+
+
+}
